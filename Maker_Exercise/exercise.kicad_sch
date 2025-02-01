@@ -1653,6 +1653,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5470,6 +5641,12 @@
 		(uuid "a1bd5738-8e55-4237-9df3-92146dfeba7d")
 	)
 	(junction
+		(at 207.01 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c680ad-755d-48ad-8352-e9a6eb04b76b")
+	)
+	(junction
 		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5760,6 +5937,16 @@
 			(type default)
 		)
 		(uuid "07c15df9-3c09-4ed3-a1ff-f3f73d6eb2c9")
+	)
+	(wire
+		(pts
+			(xy 201.93 140.97) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08392ddd-c9df-4477-a3cd-0da252220afb")
 	)
 	(wire
 		(pts
@@ -6273,6 +6460,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 160.02) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58923d59-303d-4041-a47c-5c484250142a")
+	)
+	(wire
+		(pts
 			(xy 44.45 87.63) (xy 53.34 87.63)
 		)
 		(stroke
@@ -6340,6 +6537,16 @@
 			(type default)
 		)
 		(uuid "6265a9ec-b56d-4d2e-8554-b4c1d73a809d")
+	)
+	(wire
+		(pts
+			(xy 213.36 140.97) (xy 213.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63466c9d-90e6-47cc-af21-acc9ae5eaae1")
 	)
 	(wire
 		(pts
@@ -6450,6 +6657,16 @@
 			(type default)
 		)
 		(uuid "7cd6b202-9e3f-4bf3-99a0-f43748ccaf22")
+	)
+	(wire
+		(pts
+			(xy 213.36 148.59) (xy 213.36 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4df254-17bd-4d88-bdce-f0bbe847e991")
 	)
 	(wire
 		(pts
@@ -6763,6 +6980,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 157.48) (xy 201.93 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa66497f-d43e-4c48-ba59-1378882e8455")
+	)
+	(wire
+		(pts
 			(xy 68.58 95.25) (xy 71.12 95.25)
 		)
 		(stroke
@@ -6823,6 +7050,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 157.48) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bf64d7-169f-4ead-9125-c4225a901118")
+	)
+	(wire
+		(pts
 			(xy 158.75 63.5) (xy 158.75 64.77)
 		)
 		(stroke
@@ -6850,6 +7087,16 @@
 			(type default)
 		)
 		(uuid "bc570e20-eb77-42e6-ac5e-ec6485b6b667")
+	)
+	(wire
+		(pts
+			(xy 213.36 157.48) (xy 213.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdad8e58-1a63-400a-be35-1abb50e21e12")
 	)
 	(wire
 		(pts
@@ -7083,6 +7330,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 157.48) (xy 201.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63c108d-c65d-4cfd-a0ed-43ebbdc7a00f")
+	)
+	(wire
+		(pts
 			(xy 71.12 93.98) (xy 71.12 95.25)
 		)
 		(stroke
@@ -7090,6 +7347,16 @@
 			(type default)
 		)
 		(uuid "e6513803-07b9-4151-a332-eb83e292b623")
+	)
+	(wire
+		(pts
+			(xy 201.93 148.59) (xy 201.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7380fd3-86dc-4524-987c-b2c1e315c1d4")
 	)
 	(wire
 		(pts
@@ -7256,6 +7523,18 @@
 		(uuid 3857ddba-3c64-4ec0-baab-c183167a9b17)
 	)
 	(rectangle
+		(start 187.96 133.35)
+		(end 227.33 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b0688e6-6b2b-42a4-8301-5fbc161d8a18)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 115.57 71.12)
 		(stroke
@@ -7375,6 +7654,16 @@
 		)
 		(uuid "ba2ea1b9-8fe1-4c54-8ec3-e246de4a4178")
 	)
+	(text "Power LEDs"
+		(exclude_from_sim no)
+		(at 194.056 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3ce2492-c0de-4a32-a5d4-faf8799ec664")
+	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 202.692 16.256 0)
@@ -7384,6 +7673,28 @@
 			)
 		)
 		(uuid "fcd1d5ab-b0ce-4120-86bb-e64adca8d668")
+	)
+	(global_label "D-"
+		(shape input)
+		(at 267.97 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d91327-3986-4e52-9ed3-792cab4036b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.7976 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "S1{slash}D2_Drive"
 		(shape input)
@@ -7693,28 +8004,6 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape input)
-		(at 257.81 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f4a2c3a-ccc1-4275-a14e-b5867c1eb385")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.9824 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TIM2_CH1_PWM"
 		(shape input)
 		(at 88.9 105.41 0)
@@ -7913,6 +8202,28 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 257.81 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8482ca5e-1949-414f-895f-7c1a9bf85b5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.5072 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TIM2_CH2_PWM"
 		(shape input)
 		(at 48.26 36.83 180)
@@ -8001,29 +8312,7 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 267.97 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a44ed0e3-ae36-498f-bec2-f2e8bf2d50e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.7976 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP"
+	(global_label "USB_DM"
 		(shape input)
 		(at 257.81 57.15 180)
 		(fields_autoplaced yes)
@@ -8033,36 +8322,14 @@
 			)
 			(justify right)
 		)
-		(uuid "a62b06c6-4b0e-404f-92ba-ec1ec52d1eb8")
+		(uuid "b4413865-a712-486c-8e0e-f77f8d0383bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5072 57.15 0)
+			(at 247.3258 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DM"
-		(shape input)
-		(at 267.97 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdcbcc39-50ce-47d3-aa08-4817fd9a91f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4542 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8102,6 +8369,28 @@
 		(uuid "d5e4f6c5-0c5c-43b9-bf05-38e3cacc7335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 262.6095 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 267.97 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd7dd55a-4ef5-4c8c-b2c8-c26c37607a29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.7976 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,6 +8631,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "STM32G431CBU6"
+			(at 71.12 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "79904c67-4384-40ae-8353-6c804dfcbd83")
 		)
@@ -8525,7 +8823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 30.48 114.3 0)
 			(effects
 				(font
@@ -8660,7 +8958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 26.67 91.44 0)
 			(effects
 				(font
@@ -8928,7 +9226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -9103,6 +9401,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 201.93 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1af864b0-593a-4d76-9eec-9f2283789918")
+		(property "Reference" "D3"
+			(at 196.596 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 189.484 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 201.93 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfbbb970-7949-4538-b64c-934c8981ce91")
+		)
+		(pin "1"
+			(uuid "1b362bc9-b840-4b7f-a0cf-857c06e4c76e")
+		)
+		(instances
+			(project ""
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 96.52 44.45 0)
 		(unit 1)
@@ -9129,7 +9496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -9542,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/268/MIC4606_85V_Full_Bridge_MOSFET_Drivers_with_Adapti-3442103.pdf"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -9956,7 +10323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 172.72 39.37 0)
 			(effects
 				(font
@@ -10288,7 +10655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -10365,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/171013801.pdf"
 			(at 156.21 41.91 0)
 			(effects
 				(font
@@ -10375,6 +10742,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "171013801"
 			(at 156.21 41.91 0)
 			(effects
 				(font
@@ -10603,6 +10979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 207.01 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5674ee07-2df8-421f-b1d2-75bbbf032ab1")
+		(property "Reference" "#PWR041"
+			(at 207.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bea6e162-8b4c-403e-b69e-1eaf99301678")
+		)
+		(instances
+			(project ""
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 101.6 91.44 0)
 		(unit 1)
@@ -10630,7 +11072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -10700,7 +11142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 172.72 52.07 0)
 			(effects
 				(font
@@ -10769,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -10904,7 +11346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -11039,7 +11481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 254 35.56 0)
 			(effects
 				(font
@@ -11213,6 +11655,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 201.93 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84731f96-8e9c-4638-9f94-39f579c6cdfa")
+		(property "Reference" "#PWR037"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf35a5c-8bc6-463f-8ede-a8ad6b2e6632")
+		)
+		(instances
+			(project ""
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 190.5 0)
 		(unit 1)
@@ -11304,7 +11812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -11341,6 +11849,76 @@
 			(project "exercise"
 				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 201.93 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f21c415-8dac-4475-b705-5654d73e6d45")
+		(property "Reference" "R6"
+			(at 204.47 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 204.47 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb24657f-aff0-41ce-975a-e0652e825599")
+		)
+		(pin "1"
+			(uuid "bfa0c33b-b4f3-442d-86c7-38f10c685808")
+		)
+		(instances
+			(project ""
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11473,6 +12051,76 @@
 			(project ""
 				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a68008-d244-4ebb-aba3-fed3e8312383")
+		(property "Reference" "R7"
+			(at 215.9 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k6"
+			(at 215.9 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94589c06-bd36-489d-99d2-cc0359c5b809")
+		)
+		(pin "1"
+			(uuid "4b8999f5-720d-4876-8397-d70cd882ee8f")
+		)
+		(instances
+			(project "exercise"
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11639,7 +12287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -11782,7 +12430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdmq86530l-d.pdf"
 			(at 241.3 104.14 0)
 			(effects
 				(font
@@ -11792,6 +12440,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDMQ86530L"
 			(at 241.3 104.14 0)
 			(effects
 				(font
@@ -12568,7 +13225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 35.56 91.44 0)
 			(effects
 				(font
@@ -12702,7 +13359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 254 27.94 0)
 			(effects
 				(font
@@ -12837,7 +13494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -13080,6 +13737,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 213.36 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac0fa35-3fa2-4024-ac17-f487f4eeffc9")
+		(property "Reference" "#PWR042"
+			(at 213.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e52d86e-a208-4557-85bf-9e5b558d6c56")
+		)
+		(instances
+			(project ""
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 64.77 0)
 		(unit 1)
@@ -13172,7 +13895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 44.45 24.13 0)
 			(effects
 				(font
@@ -13440,7 +14163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 25.4 38.1 0)
 			(effects
 				(font
@@ -13509,7 +14232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 45.72 54.61 0)
 			(effects
 				(font
@@ -13546,6 +14269,76 @@
 			(project "exercise"
 				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 213.36 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed865b71-f954-4cc1-9e42-45169817b7e7")
+		(property "Reference" "D4"
+			(at 215.9 152.3364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 215.9 154.8764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 213.36 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "663b8abe-bd30-4604-b46c-23a843e3eede")
+		)
+		(pin "1"
+			(uuid "31aea163-a183-4f8d-8a1c-b8a635694f4f")
+		)
+		(instances
+			(project "exercise"
+				(path "/17af3f61-b028-48b0-a8e7-2f5e08fd2dff"
+					(reference "D4")
 					(unit 1)
 				)
 			)
